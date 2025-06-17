@@ -24,37 +24,37 @@
 
 Cài đặt các thư viện cần thiết cho bài lab:
 
-*pip3 install numpy*
-
-*pip3 install scipy*
-
-*pip3 install matplotlib*
-
-*pip3 install scikit-learn*
-
-*sudo apt update*
-
-*sudo apt install python3-tk*
+     pip3 install numpy
+     
+     pip3 install scipy
+     
+     pip3 install matplotlib
+     
+     pip3 install scikit-learn
+     
+     sudo apt update
+     
+     sudo apt install python3-tk
 
 Xem nội dung file thông điệp:
 
-*cat message.txt*
+     cat message.txt
 
 Thực hiện giấu nội dung thông điệp vào file âm thanh .wav theo thuật toán echo hiding single kernel:
 
-*python3 echo\_single\_tool.py encode \-i input.wav \-o sg\_out.wav \-m message.txt \--algo single*
+     python3 echo\_single\_tool.py encode \-i input.wav \-o sg\_out.wav \-m message.txt \--algo single
 
 Thực hiện tách nội dung thông điệp từ file âm thanh *sg\_out.wav*:
 
-*python3 echo\_single\_tool.py decode \-i sg\_out.wav \--algo single*
+     python3 echo\_single\_tool.py decode \-i sg\_out.wav \--algo single
 
 Thực hiện giấu nội dung thông điệp vào file âm thanh .wav theo thuật toán echo hidng backward and forward:
 
-*python3 echo\_single\_tool.py encode \-i input.wav \-o bf\_out.wav \-m message.txt \--algo bf*
+     python3 echo\_single\_tool.py encode \-i input.wav \-o bf\_out.wav \-m message.txt \--algo bf
 
 Thực hiện tách nội dung thông điệp từ file âm thanh *bf\_out.wav*:
 
-*python3 echo\_single\_tool.py decode \-i bf\_out.wav \--algo bf*
+     python3 echo\_single\_tool.py decode \-i bf\_out.wav \--algo bf
 
 * MSE (Mean Squared Error): Là sai số bình phương trung bình giữa tín hiệu gốc và tín hiệu đã biến đổi. MSE càng nhỏ ⇒ tín hiệu càng giống gốc**.**
 
@@ -62,21 +62,21 @@ Thực hiện tách nội dung thông điệp từ file âm thanh *bf\_out.wav*:
 
 Thực hiện so sánh giữa hai file đã giấu tin với file ban đầu và xem thuật toán nào có hiệu suất tốt hơn:
 
-*python3 echo\_single\_tool.py compare \-i input.wav \-o sg\_out.wav*
-
-*python3 echo\_single\_tool.py compare \-i input.wav \-o bf\_out.wav*
+      python3 echo\_single\_tool.py compare \-i input.wav \-o sg\_out.wav
+      
+      python3 echo\_single\_tool.py compare \-i input.wav \-o bf\_out.wav
 
 Trên terminal đầu tiên:
 
 * Kiểm tra kết quả bài lab:
 
-*checkwork*
+     checkwork
 
 * Kết thúc bài lab:
 
-*stoplab*
+     stoplab
 
 * Khởi động lại bài lab:
 
-*labtainer \-r echo-hiding-tool*
+     labtainer \-r echo-hiding-tool
 
