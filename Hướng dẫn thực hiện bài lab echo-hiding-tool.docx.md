@@ -1,6 +1,6 @@
 ***Nội dung và hướng dẫn thực hiện bài lab***
 
-**Giấu tin trong âm thanh sử dụng tool** 
+**Giấu tin trong âm thanh sử dụng công cụ** 
 
 **(thuật toán echo hiding single kernel)**
 
